@@ -1,0 +1,46 @@
+name: spark
+description: Personal daily reading app — curated content every morning.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Local persistence
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+
+  # Networking & RSS
+  http: ^1.2.1
+  webfeed: ^0.7.0
+
+  # UI & Animation
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+
+  # Utilities
+  intl: ^0.17.0
+  url_launcher: ^6.3.0
+  uuid: ^4.4.0
+  flutter_html: ^3.0.0
+  html: ^0.15.6
+  flutter_local_notifications: ^8.2.0
+  timezone: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
